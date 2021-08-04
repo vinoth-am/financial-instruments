@@ -11,3 +11,7 @@ export interface ITableProps {
   sorting: boolean;
   width?: number;
 }
+
+export interface IApiService {
+  data: any;
+}

@@ -1,6 +1,6 @@
-## Deployed URL  🚀
+## Deployed URL 🚀
 
-   Public : https://vinoth-am.github.io/financial-instruments
+Public : https://vinoth-am.github.io/financial-instruments
 
 ## Installation
 
@@ -26,7 +26,7 @@ yarn start
 
 Open the below URL to view it in the browser.
 
-   Local : http://localhost:3000
+Local : http://localhost:3000
 
 ## Folder Structure
 
@@ -47,7 +47,7 @@ Open the below URL to view it in the browser.
 ├── constants
 │   └── index.ts
 ├── services
-│   └── index.ts
+│   └── axios.ts
 ├── utils
 │   └── index.ts
 ├── asset
