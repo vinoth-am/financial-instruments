@@ -1,6 +1,7 @@
 import axios from "axios";
 import { IApiService } from "../app/components/Table/types";
 
+/* ApiService class for API */
 export default class ApiService {
   public get<T = void>(): Promise<T> {
     const instance = this.getAxiosInstance();
@@ -14,6 +15,7 @@ export default class ApiService {
     });
   }
 
+  /* Create axios instance */
   private getAxiosInstance() {
     const instance = axios.create();
     return instance;
