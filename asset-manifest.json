@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/financial-instruments/static/css/main.8a27c2f0.chunk.css",
-    "main.js": "/financial-instruments/static/js/main.d4d0a825.chunk.js",
-    "main.js.map": "/financial-instruments/static/js/main.d4d0a825.chunk.js.map",
+    "main.js": "/financial-instruments/static/js/main.5d781ef7.chunk.js",
+    "main.js.map": "/financial-instruments/static/js/main.5d781ef7.chunk.js.map",
     "runtime-main.js": "/financial-instruments/static/js/runtime-main.d46223d6.js",
     "runtime-main.js.map": "/financial-instruments/static/js/runtime-main.d46223d6.js.map",
     "static/js/2.10045d4e.chunk.js": "/financial-instruments/static/js/2.10045d4e.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.d46223d6.js",
     "static/js/2.10045d4e.chunk.js",
     "static/css/main.8a27c2f0.chunk.css",
-    "static/js/main.d4d0a825.chunk.js"
+    "static/js/main.5d781ef7.chunk.js"
   ]
 }
