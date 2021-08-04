@@ -1,0 +1,57 @@
+@import url("../../../asset/colors.css");
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 10px;
+  margin-top: 20px;
+  border: 1px solid var(--light-shade-gray);
+  border-radius: 10px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.row-color-equities {
+  background-color: var(--light-blue);
+}
+.row-color-credit {
+  background-color: var(--light-green);
+}
+.row-color-macro {
+  background-color: var(--white);
+}
+
+.price-red {
+  color: var(--red);
+}
+.price-blue {
+  color: var(--blue);
+}
+
+.instruments-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.instruments-table td {
+  border: 1px solid var(--light-shade-gray);
+  padding: 15px;
+  text-align: left;
+}
+
+.instruments-table th {
+  border: 1px solid var(--light-shade-gray);
+  background-color: var(--light-shade-white);
+  padding: 15px;
+  text-align: left;
+  color: black;
+}
