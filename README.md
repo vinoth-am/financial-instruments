@@ -20,7 +20,10 @@ Run the app
 yarn start
 ```
 
-Open http://localhost:3000 to view it in the browser.
+Open the below URL to view it in the browser 🚀
+
+Local 🖥️ : http://localhost:3000
+Public 🌐 : https://vinoth-am.github.io/financial-instruments
 
 ## Folder Structure
 
