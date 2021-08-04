@@ -2,11 +2,11 @@ import React, { useEffect, useState } from "react";
 import "./tablestyles.css";
 import { Filter } from "../Filter/Filter";
 import { capitalizeFirst } from "../../../utils";
-import { INTRUMENTS_RESPONSE_KEY, SORT_BY } from "../../../constants";
+import { SORT_BY } from "../../../constants";
 import { ITableData, ITableProps } from "./types";
 
 export const Table = (props: ITableProps) => {
-  const { data, heading, sorting, width } = props;
+  const { data, heading, tableHeader, sorting, width } = props;
   const [getData, setData] = useState<ITableData[]>([]);
 
   const tableWidth = width || 80;
@@ -39,7 +39,7 @@ export const Table = (props: ITableProps) => {
       {/* Table Header section */}
       <table className="instruments-table">
         <tr>
-          {INTRUMENTS_RESPONSE_KEY.map((header) => (
+          {tableHeader.map((header) => (
             <th>{capitalizeFirst(header)}</th>
           ))}
         </tr>

@@ -7,6 +7,7 @@ export interface ITableData {
 export interface ITableProps {
   data: ITableData[];
   heading: string;
+  tableHeader: string[];
   sorting: boolean;
   width?: number;
 }
