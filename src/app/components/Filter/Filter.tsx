@@ -78,7 +78,11 @@ export const Filter = (props: IFilterProps) => {
   return (
     <select className="filter" onChange={(e) => sortData(e, source, sortBy)}>
       {Object.keys(INTRUMENTS_FILTER).map((key) => {
-        return <option value={INTRUMENTS_FILTER[key]}>{key}</option>;
+        return (
+          <option key={key} value={INTRUMENTS_FILTER[key]}>
+            {key}
+          </option>
+        );
       })}
     </select>
   );

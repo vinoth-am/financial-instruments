@@ -38,25 +38,27 @@ export const Table = (props: ITableProps) => {
 
       {/* Table Header section */}
       <table className="instruments-table">
-        <tr>
-          {tableHeader.map((header) => (
-            <th>{capitalizeFirst(header)}</th>
-          ))}
-        </tr>
-
-        {/* Table row section */}
-        {getData?.map((value: ITableData, index: number) => (
-          <tr
-            key={index}
-            className={`row-color-${value?.assetClass?.toLowerCase()}`}
-          >
-            <td>{value.ticker}</td>
-            <td className={value?.price < 0 ? "price-red" : "price-blue"}>
-              {value.price}
-            </td>
-            <td>{value?.assetClass}</td>
+        <tbody>
+          <tr>
+            {tableHeader.map((header) => (
+              <th>{capitalizeFirst(header)}</th>
+            ))}
           </tr>
-        ))}
+
+          {/* Table row section */}
+          {getData?.map((value: ITableData, index: number) => (
+            <tr
+              key={index}
+              className={`row-color-${value?.assetClass?.toLowerCase()}`}
+            >
+              <td>{value.ticker}</td>
+              <td className={value?.price < 0 ? "price-red" : "price-blue"}>
+                {value.price}
+              </td>
+              <td>{value?.assetClass}</td>
+            </tr>
+          ))}
+        </tbody>
       </table>
     </div>
   );
