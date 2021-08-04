@@ -11,7 +11,7 @@ export const INTRUMENTS_FILTER: {
   Select: "",
   Ticker: "ticker",
   Price: "price",
-  "Asset Class": "assetClass",
+  AssetClass: "assetClass",
 };
 
 export const TABLE_HEADING = "Financial Instruments Data";
