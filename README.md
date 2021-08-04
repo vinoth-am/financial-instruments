@@ -22,8 +22,9 @@ yarn start
 
 Open the below URL to view it in the browser 🚀
 
-Local 🖥️ : http://localhost:3000
-Public 🌐 : https://vinoth-am.github.io/financial-instruments
+   Local : http://localhost:3000
+
+   Public : https://vinoth-am.github.io/financial-instruments
 
 ## Folder Structure
 
