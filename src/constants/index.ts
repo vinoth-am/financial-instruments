@@ -8,10 +8,10 @@ export const SORTED_ASSERT_CLASS: string[] = ["Equities", "Macro", "Credit"];
 export const INTRUMENTS_FILTER: {
   [key: string]: string;
 } = {
-  "-----": "",
+  Select: "",
   Ticker: "ticker",
   Price: "price",
-  AssetClass: "assetClass",
+  "Asset Class": "assetClass",
 };
 
 export const TABLE_HEADING = "Financial Instruments Data";
