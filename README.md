@@ -1,3 +1,7 @@
+## Deployed URL  🚀
+
+   Public : https://vinoth-am.github.io/financial-instruments
+
 ## Installation
 
 To run the application node and yarn needs to be installed on the local machine.
@@ -20,11 +24,9 @@ Run the app
 yarn start
 ```
 
-Open the below URL to view it in the browser 🚀
+Open the below URL to view it in the browser.
 
    Local : http://localhost:3000
-
-   Public : https://vinoth-am.github.io/financial-instruments
 
 ## Folder Structure
 
